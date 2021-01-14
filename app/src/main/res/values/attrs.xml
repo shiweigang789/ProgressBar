@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress_current" format="integer"/>
+        <attr name="progress_max" format="integer"/>
+
+        <attr name="progress_unreached_color" format="color"/>
+        <attr name="progress_reached_color" format="color"/>
+
+        <attr name="progress_reached_bar_height" format="dimension"/>
+        <attr name="progress_unreached_bar_height" format="dimension"/>
+
+        <attr name="progress_text_size" format="dimension"/>
+        <attr name="progress_text_color" format="color"/>
+
+        <attr name="progress_text_offset" format="dimension"/>
+
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="numberProgressBarStyle" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalProgressBar">
+        <attr name="progress_bg_color" format="reference|color" />
+        <attr name="progress_color" format="reference|color" />
+        <attr name="progress_fail_color" format="reference|color" />
+        <attr name="progress_width" format="reference" />
+        <attr name="text_color1" format="reference|color" />
+        <attr name="text_color2" format="reference|color" />
+        <attr name="text_bg_color1" format="reference|color" />
+        <attr name="text_bg_width" format="reference|dimension" />
+        <attr name="text_bg_height" format="reference|dimension" />
+        <attr name="text_paint_width" format="reference|dimension" />
+        <attr name="triangle_height" format="reference|dimension" />
+        <attr name="text_bg_color2" format="reference|color" />
+        <attr name="text_size" format="reference|dimension" />
+        <attr name="text_rect_round_radius" format="reference|dimension" />
+        <attr name="progress_anim" format="boolean" />
+        <attr name="progress_anim_duration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="StepProgressView">
+        <attr name="progress_circle_width" format="reference|dimension" />
+        <attr name="progress_circle_normal_color" format="reference|color" />
+        <attr name="progress_line_normal_color" format="reference|color" />
+        <attr name="progress_circle_select_color" format="reference|color" />
+        <attr name="progress_circle_radius" format="reference|dimension" />
+        <attr name="progress_text_describe_height" format="reference|dimension" />
+        <attr name="progress_text_describe_size" format="reference|dimension" />
+        <attr name="progress_text_describe_color" format="reference|color" />
+        <attr name="progress_text_date_color" format="reference|dimension" />
+        <attr name="progress_margin_top" format="reference|dimension" />
+    </declare-styleable>
+</resources>
